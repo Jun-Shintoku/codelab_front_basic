@@ -16,20 +16,19 @@ body {
   padding: 50px 0;
 }
 .main {
-  float: left;
+  float:left;
   background: #fa8072;
-  width: 748px;
+  width:70%;
   height: 600px;
   line-height: 600px;
 }
 .side {
-  float: left;
-  background: #ffffe0;
-  width: 198px;
+  float:left;
+  background: #eeca89;
+  width:30%;
   height: 600px;
   line-height: 600px;
 }
-
 .footer {
   clear:both;
   background: #add8e6;
