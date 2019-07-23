@@ -1,0 +1,33 @@
+@charset "utf-8";
+body {
+  background:#ccf3ff;
+}
+
+.wrap {
+  max-width:calc(1280/1920*100%);
+  margin:60px auto;
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.nav {
+  display:inline-block;
+  background:#deb7bd;
+  width:30%;
+  height:100%;
+  text-align:center;
+}
+
+.column {
+  display:inline-block;
+  background:#96d2b6;
+  width:65%;
+  margin:15px 0;
+  padding:0 10px;
+}
+
+.child {
+  font-size:small;
+  text-align:justify;
+  text-align-last:center;
+}
