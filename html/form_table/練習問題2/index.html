@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="CSS/style.css">
+  <title>テーブル・フォーム　練習問題2</title>
+</head>
+<body>
+  <div class="wrap">
+    <h1>フォーム練習</h1>
+    <h2>お問い合わせ</h2>
+
+    <table class="table">
+    
+      <tbody>
+
+        <tr>
+          <th>お名前</th>
+          <td><input type="text" name="name" size=40></td>
+        </tr>
+
+        <tr>
+          <th>ご住所</th>
+          <td><input type="text" name="address" size=40></td>
+        </tr>
+
+        <tr>
+          <th>性別</th>
+          <td>
+            <label for="male"><input type="radio" name="sex" value="male" id="male" checked>男性</label>
+            <label for="female"><input type="radio" name="sex" value="female" id="female">女性</label>
+          </td>
+        </tr>
+
+        <tr>
+          <th>お問い合わせ種別</th>
+          <td>
+            <select name="matter">
+              <option name="free" value="free" selected>無料請求　</option>
+              <option name="shere" value="shere">有料請求　</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <th>ご希望の連絡方法<br>（複数選択可）</th>
+          <td>
+            <label for="mail"><input type="checkbox" name="mail" value="mail" id="mail">メール</label>
+            <label for="tel"><input type="checkbox" name="tel" value="tel" id="tel">電話</label>
+            <label for="visit"><input type="checkbox" name="visit" value="visit" id="visit">訪問</label>
+          </td>
+        </tr>
+
+        <tr>
+          <th>お問い合わせ内容</th>
+          <td><textarea name="msg" cols=40 rows=8></textarea></td>
+        </tr>
+
+      </tbody>
+      
+    </table>
+
+    <div class="btn_container">
+      <a href="#" class="btn">送信</a>
+    </div>
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+}
+
+.wrap {
+  height:1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+table, td, th {
+  border: solid 1px black;
+  border-collapse: collapse;
+}
+
+table {
+  margin: auto;
+}
+
+th {
+  padding: 0 150px;
+}

@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+}
+
+.wrap {
+  height:800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+table {
+  border: solid 2px black;
+  border-collapse: collapse;
+  margin: auto;
+  text-align: left;
+}
+
+th, td {
+  border: solid 1px black;
+}
+
+th {
+ background-color: darkgray;
+ padding: 15px 50px 15px 10px;
+}
+
+td {
+   padding: 5px 50px 5px 10px;
+}
+
+textarea {
+  resize:none;
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.btn_container {
+  margin-top:70px;
+}
+
+.btn {
+  background:#79bcff;
+  padding:18px 80px;
+  color: #FFF;
+  text-decoration: none;
+  font-size:large;
+  font-weight: bold;
+}
